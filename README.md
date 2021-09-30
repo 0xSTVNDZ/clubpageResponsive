@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Fake Club Homepage (Responsive)
 
-No demo yet. <!-- Demo [here](https://example.com) -->
+Demo [here](https://0xstvndz.github.io/clubpageResponsive/)
 
 
 ### Built With
