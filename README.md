@@ -24,7 +24,7 @@ No prerequisities, just navigate to the live demo to check it out!
 
 
 ## Project Status
-Project is: _in progress_ 
+Project is: _completed_ 
 
 
 ## Room for Improvement
@@ -32,11 +32,7 @@ Room for improvement:
 - Always room for improvement
 
 To do:
-- add header
-- add main content
-- add suplement content
-- add a highlight video
-- add footer/contact section
+- nothing :)
 
 <!-- CONTRIBUTING -->
 ## Contributing
