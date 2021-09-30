@@ -1,0 +1,74 @@
+/*give a font and font weight to entire page*/
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*give header set height and width 100%, set background color*/
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+/*
+    navbar will be a inline-flex container, take full width and 
+    height, align items horizontally
+
+*/
+.header .navbar {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+/*align text vertically by making each p element a flex container*/
+.navbar p {
+    display: flex;
+    align-self: center;
+}
+
+/* links will not be underlined, set color, set font size*/
+.navbar a {
+    text-decoration: none;
+    color: #00feff;
+    font-size: 2em;
+}
+
+/*
+    motivation section
+    set width and height of container in relative units, 
+    position relative,
+    center text
+*/
+.motivation {
+    width: 100%;
+    height: 47.375em;
+    position: relative;
+    text-align: center;
+}
+
+/*set image to size of container*/
+.motivation img {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+    text within img
+    set position to absolute within container and change its 
+    position
+    set color, font size, font family, font weight
+*/
+.motivation p{
+    font-family: 'Ephesis', cursive;
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #00feff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
