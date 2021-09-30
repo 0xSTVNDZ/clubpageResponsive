@@ -161,4 +161,93 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
+    font-size: 1.75em;
+}
+
+/*
+    set width, margin and height of div
+*/
+.sign-up {
+    width: 100%;
+    height: 36em;
+    margin: 2em 0em;
+}
+
+/*
+    create a flex container, enable flex wrap, center horizontally,
+    set height and width
+*/
+.signup-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+/*set image dimensions relative to parent container*/
+.signup-content img {
+    width: 55%;
+    height: 80%;
+}
+
+/*
+    set width relative to parent container, make into flex container
+    center text horizontally and vertically, set margins
+*/
+.signup-content p {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+/*change default link color*/
+.signup-content a {
+    color: #00feff;
+}
+
+/*set top and bottom margins*/
+footer {
+    margin: 3em 0em;
+}
+
+/*center top of footer, set font size*/
+footer h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+/*
+    put all contact info into a bar thats easy to see
+    flex container, space-around content, set background color
+*/
+footer .footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+}
+
+/*set width of p elements relative to flex container, set color*/
+.footer-content p {
+    width: 20%;
+    color: #00feff;
+}
+
+/*center copyright*/
+footer .copyright{
+    text-align: center;
+}
+
+/*change link color to red*/
+.footer-content a {
+    color: red;
+}
+
+/*change link color when we hover*/
+a:hover {
+    color: #ff8300;
 }
